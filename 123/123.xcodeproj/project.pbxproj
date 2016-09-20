@@ -12,6 +12,7 @@
 		BC2E241D1D90D0B700E358F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2E241B1D90D0B700E358F1 /* Main.storyboard */; };
 		BC2E241F1D90D0B700E358F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2E241E1D90D0B700E358F1 /* Assets.xcassets */; };
 		BC2E24221D90D0B700E358F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2E24201D90D0B700E358F1 /* LaunchScreen.storyboard */; };
+		BC2E24481D90D5F300E358F1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E24471D90D5F300E358F1 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BC2E241E1D90D0B700E358F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC2E24211D90D0B700E358F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC2E24231D90D0B700E358F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2E24471D90D5F300E358F1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		BC2E240B1D90D0B700E358F1 = {
 			isa = PBXGroup;
 			children = (
+				BC2E24471D90D5F300E358F1 /* FirstViewController.swift */,
 				BC2E24161D90D0B700E358F1 /* 123 */,
 				BC2E24151D90D0B700E358F1 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2E24481D90D5F300E358F1 /* FirstViewController.swift in Sources */,
 				BC2E241A1D90D0B700E358F1 /* ViewController.swift in Sources */,
 				BC2E24181D90D0B700E358F1 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				BC2E24281D90D0B700E358F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
